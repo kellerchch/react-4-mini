@@ -21,11 +21,11 @@ class App extends Component {
         <Link to="/2">Route 2</Link><br />
         <Link to="/3">Route 3</Link>
 
-        <switch>
+        <Switch>
           <Route exact path="/" component={One}/>
           <Route path="/2" component={Two}/>
           <Route path="/3" component={Three}/>
-        </switch>
+        </Switch>
       </div>
     );
   }
